@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  Future<void> _getRecognizedText() async {
+  void _getRecognizedText() async {
     if (galleryFile != null) {
       final inputImage = InputImage.fromFile(galleryFile!);
       final recognizedText = await textRecognizer.processImage(inputImage);
