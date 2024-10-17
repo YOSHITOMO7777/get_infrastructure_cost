@@ -43,6 +43,6 @@ flutter {
     source = "../.."
 }
 
-depencencies {
-	implementation 'com.google.mlkit:text-recognition-japanese:16.0.0'
+dependencies {
+     implementation 'com.google.mlkit:text-recognition-japanese:16.0.0'
 }
